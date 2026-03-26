@@ -1,0 +1,65 @@
+# Program No. 1 (fa3prog1)
+
+# Ask for student information
+name = input("Enter student's name: ")
+age = input("Enter student's age: ")
+course = input("Enter student's course: ")
+
+# Display the information in formatted output
+print("\n--- Student Information ---")
+print(f"Name   : {name}")
+print(f"Age    : {age}")
+print(f"Course : {course}")
+     
+Enter student's name: Michael Kaiser
+Enter student's age: 18
+Enter student's course: Pisay Scholar
+
+--- Student Information ---
+Name   : Michael Kaiser
+Age    : 18
+Course : Pisay Scholar
+
+# Program No. 2 (fa3prog2)
+
+# Ask for exam score
+score = float(input("Enter student's exam score: "))
+
+# Check if passed or failed
+if score >= 75:
+    print("Passed")
+else:
+    print("Failed")
+     
+Enter student's exam score: 80
+Passed
+
+# Program No. 3 (fa3prog3)
+
+# Ask for student information
+name = input("Enter student's name: ")
+score = float(input("Enter student's score: "))
+
+# Determine letter grade
+if 90 <= score <= 100:
+    grade = "A"
+elif 80 <= score <= 89:
+    grade = "B"
+elif 70 <= score <= 79:
+    grade = "C"
+else:
+    grade = "F"
+
+# Display result
+print("\n--- Grading Result ---")
+print(f"Name  : {name}")
+print(f"Score : {score}")
+print(f"Grade : {grade}")
+     
+Enter student's name: Michael Kaiser
+Enter student's score: 80
+
+--- Grading Result ---
+Name  : Michael Kaiser
+Score : 80.0
+Grade : B
