@@ -10,15 +10,7 @@ print("\n--- Student Information ---")
 print(f"Name   : {name}")
 print(f"Age    : {age}")
 print(f"Course : {course}")
-     
-Enter student's name: Michael Kaiser
-Enter student's age: 18
-Enter student's course: Pisay Scholar
 
---- Student Information ---
-Name   : Michael Kaiser
-Age    : 18
-Course : Pisay Scholar
 
 # Program No. 2 (fa3prog2)
 
@@ -30,9 +22,7 @@ if score >= 75:
     print("Passed")
 else:
     print("Failed")
-     
-Enter student's exam score: 80
-Passed
+
 
 # Program No. 3 (fa3prog3)
 
@@ -55,11 +45,3 @@ print("\n--- Grading Result ---")
 print(f"Name  : {name}")
 print(f"Score : {score}")
 print(f"Grade : {grade}")
-     
-Enter student's name: Michael Kaiser
-Enter student's score: 80
-
---- Grading Result ---
-Name  : Michael Kaiser
-Score : 80.0
-Grade : B
